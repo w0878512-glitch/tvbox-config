@@ -1,0 +1,408 @@
+======================================================================
+TVBox 源可用性检测报告
+检测时间: 2026-07-29 14:16:38
+总源数: 298
+======================================================================
+
+## 统计
+  ✅ 可用: 10
+  ❌ 失效: 20
+  📁 仅本地依赖(无法网络检测): 261
+  ❓ 无法判断: 7
+
+## 分类统计
+  影视: 164 个
+  其他: 39 个
+  网盘: 33 个
+  弹幕影视: 26 个
+  磁力: 11 个
+  音频: 10 个
+  直播: 8 个
+  搜索: 7 个
+
+## 参与搜索的源: 80 个
+  (过多会导致搜索结果杂乱，建议只保留 5-10 个可靠的)
+
+## ❌ 失效源 (20 个) — 建议移除或关闭搜索
+--------------------------------------------------
+  [弹幕影视] 弹幕 | 低端[jar] (key: ddys)
+        [unreachable] https://ddys.pro/ (806ms) Tunnel connection failed: 503 Service Unavailable
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [弹幕影视] 弹幕 | 哔滴[jar] (key: Bdys_spider)
+        [http_error] https://www.bdys03.com/ (1292ms) HTTP 502 Bad Gateway
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [弹幕影视] 弹幕 | 天天[jar] (key: 天天)
+        [http_error] http://op.ysdqjs.cn (1364ms) HTTP 503 Service Unavailable
+  [弹幕影视] 弹幕 | 小盘盘[jar] (key: Xpanpan)
+        [unreachable] https://xpanpan.site (10128ms) timed out
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [弹幕影视] 弹幕 | 影巢[jar] (key: Hdhive)
+        [unreachable] https://hdhive.online (1173ms) [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violatio
+        [跳过] 本地地址: http://127.0.0.1:9978/file/TV/hdhive.txt
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [弹幕影视] 弹幕 | 新视觉[jar] (key: Xinshijue)
+        [unreachable] https://www.80yy3.com/ (875ms) [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: 
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+        [missing] 本地: ./lib/wogg.json - 文件不存在: C:\repo\tvbox\tvbox-config\lib\wogg.json
+  [弹幕影视] 弹幕 | 玩偶4k[jar] (key: Wo4k)
+        [http_error] https://www.wo4k.com/ (753ms) HTTP 403 Forbidden
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+        [missing] 本地: ./wogg.json - 文件不存在: C:\repo\tvbox\tvbox-config\wogg.json
+  [弹幕影视] 弹幕 | 玩偶[jar] (key: Wogg)
+        [unreachable] https://www.wogg.net/ (10175ms) timed out
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+        [missing] 本地: ./wogg.json - 文件不存在: C:\repo\tvbox\tvbox-config\wogg.json
+  [弹幕影视] 弹幕 | 老哥[jar] (key: yydsys)
+        [ok] https://tv.yydsys.top/ (2462ms) HTTP 200, 2048B, text/html;charset=utf-8
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+        [missing] 本地: ./wogg.json - 文件不存在: C:\repo\tvbox\tvbox-config\wogg.json
+  [弹幕影视] 弹幕 | 表哥[jar] (key: Wobg)
+        [http_error] https://wobge.run.goorm.io (1541ms) HTTP 404 Not Found
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+        [missing] 本地: ./wogg.json - 文件不存在: C:\repo\tvbox\tvbox-config\wogg.json
+  [弹幕影视] 弹幕 | 高清网[jar] (key: Gaoqing)
+        [error] https://gaoqing.la/ (10688ms) The read operation timed out
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [影视] 影视 | 西门[V2] (key: drpy_js_西门[V2])
+        [ok] 本地: ./lib/drpy2.min.js - 存在, 115026B
+        [missing] 本地: ./js/西门[V2].js - 文件不存在: C:\repo\tvbox\tvbox-config\js\西门[V2].js
+  [搜索] 网盘 | TG搜索[jar] (key: TGYunPan)
+        [error] http://144.126.217.226:8000/ (10140ms) timed out
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [网盘] 弹幕 | 盘Ta[jar] (key: Panta)
+        [unreachable] https://www.91panta.cn/ (599ms) Tunnel connection failed: 503 Service Unavailable
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [网盘] 网盘 | 88网盘[jar] (key: 88Pan)
+        [unreachable] https://662688.xyz (314ms) Tunnel connection failed: 503 Service Unavailable
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [网盘] 网盘 | 土豆[jar] (key: 土豆)
+        [unreachable] https://tudou.lvdoui.top/ (10174ms) timed out
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+        [missing] 本地: ./lib/wog.json - 文件不存在: C:\repo\tvbox\tvbox-config\lib\wog.json
+  [网盘] 网盘 | 大盘搜[jar] (key: DaPanSo)
+        [unreachable] https://dapanso.com (10150ms) timed out
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [网盘] 网盘 | 小米[jar] (key: 小米网盘)
+        [unreachable] https://mihdr.top/ (10142ms) timed out
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+        [missing] 本地: ./lib/wogg.json - 文件不存在: C:\repo\tvbox\tvbox-config\lib\wogg.json
+  [网盘] 网盘 | 木偶哥哥[jar] (key: Mogg)
+        [http_error] http://mogg.top/ (565ms) HTTP 503 Service Unavailable
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+        [missing] 本地: ./lib/wogg.json - 文件不存在: C:\repo\tvbox\tvbox-config\lib\wogg.json
+  [网盘] 网盘 | 皮卡搜[jar] (key: PikaSo)
+        [http_error] https://www.pikaso.top/ (1092ms) HTTP 502 Bad Gateway
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+
+## ✅ 可用源 (10 个)
+--------------------------------------------------
+  [弹幕影视] 弹幕 | HDmoli[jar] 🔍
+        [ok] https://www.hdmoli.pro/ (1825ms) HTTP 200, 2048B, text/html;charset=UTF-8
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+        [ok] 本地: ./json/moli.json - 存在, 13206B
+  [弹幕影视] 弹幕 | 新6V[jar] 🔍
+        [ok] https://www.66ss.org (1741ms) HTTP 200, 2048B, text/html
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [弹幕影视] 弹幕 | 皮皮虾[jar] 🔍
+        [ok] https://ppxzy.net/ (953ms) HTTP 200, 471B, text/html; charset=utf-8
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [弹幕影视] 弹幕 | 美剧迷[jar] 🔍
+        [ok] https://www.meijumi.xyz/ (2180ms) HTTP 200, 2048B, text/html
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [弹幕影视] 弹幕 | 蜡笔[jar] 🔍
+        [ok] https://duopan.fun/ (2302ms) HTTP 200, 2048B, text/html; charset=UTF-8
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+        [ok] 本地: ./json/wogg.json - 存在, 26269B
+  [弹幕影视] 弹幕 | 追剧[jar]
+        [ok] http://app.kzjtv.com (2368ms) HTTP 200, 2048B, text/html; charset=UTF-8
+  [搜索] 搜索 | TG[jar]
+        [ok] https://t.me/ (1439ms) HTTP 200, 2048B, text/html;charset=UTF-8
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [网盘] 网盘 | LIBVIO[jar] 🔍
+        [ok] https://www.libvio.fun (1677ms) HTTP 200, 2048B, text/html
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [网盘] 网盘 | 千帆[jar] 🔍
+        [ok] https://pan.qianfan.app (2163ms) HTTP 200, 2048B, text/html; charset=utf-8
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+  [音频] 弹幕 | 音范丝[jar] 🔍
+        [ok] https://www.yinfans.me/ (847ms) HTTP 200, 2048B, text/html
+        [ok] 本地: ./lib/token.json - 存在, 2109B
+
+## 📁 仅本地依赖 (261 个)
+  这些源依赖本地 js/jar 文件，文件存在即可，源是否真正可用需实际播放测试
+--------------------------------------------------
+  [其他] 体育 | 88看球[js]
+  [其他] 体育 | 抓饭体育[js]
+  [其他] 听书 | i275听书[js]
+  [其他] 听书 | 六月听书[js]
+  [其他] 听书 | 博看听书[js]
+  [其他] 听书 | 有声小说[js]
+  [其他] 听书 | 海洋听书[js]
+  [其他] 听书 | 爱上你听书[js]
+  [其他] 夸克  | 趣盘搜[jar] 🔍
+  [其他] 夸克 | 奇妙搜[js] 🔍
+  [其他] 夸克 | 爱盘搜[js] 🔍
+  [其他] 夸克 | 趣盘搜[js] 🔍
+  [其他] 官源 | 360[js]
+  [其他] 官源 | 优酷[js]
+  [其他] 官源 | 搜狗[js]
+  [其他] 官源 | 爱奇艺[js]
+  [其他] 官源 | 腾讯[js]
+  [其他] 官源 | 芒果[js]
+  [其他] 少儿 | 兔小贝[js]
+  [其他] 少儿 | 有声绘本[js]
+  [其他] 少儿 | 童趣[js]
+  [其他] 广播 | 广播迷FM[js]
+  [其他] 广播 | 蜻蜓FM[js]
+  [其他] 應用商店
+  [其他] 手机 | 推送[jar]
+  [其他] 格斗 | 武享吧[js]
+  [其他] 相声 | 相声随身听[js]
+  [其他] 聚合 | 播客[js]
+  [其他] 聚合 | 网易公版[js]
+  [其他] 聚合 | 酷6网[js]
+  [其他] 评书 | 评书随身听[js]
+  [其他] 起飞 | if101[js]
+  [其他] 起飞 | 爱壹帆[js]
+  [其他] 起飞 | 独播库[js]
+  [其他] 起飞 | 胖虎[js]
+  [其他] 配置 | 中心[jar]
+  [其他] 配置接口完全免费
+  [弹幕影视] 动漫 | 爱弹幕[js]
+  [弹幕影视] 弹幕 | 4KHDR[jar] 🔍
+  [弹幕影视] 弹幕 | 不太灵[jar] 🔍
+  [弹幕影视] 弹幕 | 哔哩合集[js]
+  [弹幕影视] 弹幕 | 哔哩影视[js]
+  [弹幕影视] 弹幕 | 团长[jar] 🔍
+  [弹幕影视] 弹幕 | 校长[jar] 🔍
+  [弹幕影视] 弹幕 | 荐片[jar] 🔍
+  [影视] 动漫 | 58动漫[js]
+  [影视] 动漫 | AGE动漫[js]
+  [影视] 动漫 | AnFuns[js]
+  [影视] 动漫 | Anime1动畫[js]
+  [影视] 动漫 | NT动漫[js]
+  [影视] 动漫 | NyaFun[js]
+  [影视] 动漫 | 动漫岛[js]
+  [影视] 动漫 | 去看吧[js]
+  [影视] 动漫 | 奇米动漫[js]
+  [影视] 动漫 | 异世界动漫[js]
+  [影视] 动漫 | 怡萱动漫[js]
+  [影视] 动漫 | 曲奇动漫[js]
+  [影视] 动漫 | 路漫漫[js]
+  [影视] 夸克 | 人人影视搜[js] 🔍
+  [影视] 夸克 | 校长影视[js] 🔍
+  [影视] 影视 | 139影视[js]
+  [影视] 影视 | 188影视[js]
+  [影视] 影视 | 18哈[js]
+  [影视] 影视 | 333影视[js]
+  [影视] 影视 | 348电影网[js]
+  [影视] 影视 | 369影视[js]
+  [影视] 影视 | 4K电影网[js]
+  [影视] 影视 | 4k剧院[js]
+  [影视] 影视 | 539影视[js]
+  [影视] 影视 | 555电影[V2]
+  [影视] 影视 | 567电影院[js]
+  [影视] 影视 | 69美剧[V2]
+  [影视] 影视 | 69美剧[js]
+  [影视] 影视 | 7喜影院[js]
+  [影视] 影视 | 8号影院[js]
+  [影视] 影视 | 97tvs[js] 🔍
+  [影视] 影视 | 996影视[js]
+  [影视] 影视 | Auete[js]
+  [影视] 影视 | B站影视[js]
+  [影视] 影视 | Fun4K[js]
+  [影视] 影视 | JangoIndex[js]
+  [影视] 影视 | KOK影院[js]
+  [影视] 影视 | LIBVIO[js]
+  [影视] 影视 | NY影院[js]
+  [影视] 影视 | TVB云播[js]
+  [影视] 影视 | UM电影[V2]
+  [影视] 影视 | UrleBird[飞][js]
+  [影视] 影视 | cokemv[V2]
+  [影视] 影视 | cokemv[js]
+  [影视] 影视 | dydhhy[js] 🔍
+  [影视] 影视 | libvio[js] 🔍
+  [影视] 影视 | meow搜[js] 🔍
+  [影视] 影视 | rrdyw[js] 🔍
+  [影视] 影视 | voflix[js]
+  [影视] 影视 | 两个BT[js]
+  [影视] 影视 | 中国人[js]
+  [影视] 影视 | 中国人线上看[js]
+  [影视] 影视 | 乐鱼影视[js]
+  [影视] 影视 | 人人影视[js]
+  [影视] 影视 | 低端[js]
+  [影视] 影视 | 低端影视[js] 🔍
+  [影视] 影视 | 兄弟影视[js]
+  [影视] 影视 | 免费看[js]
+  [影视] 影视 | 农民影视[js]
+  [影视] 影视 | 凌云影视[js]
+  [影视] 影视 | 刺桐[V2][js]
+  [影视] 影视 | 剧迷su[js]
+  [影视] 影视 | 北川影视[js]
+  [影视] 影视 | 北极狐[V2]
+  [影视] 影视 | 南瓜影视[js]
+  [影视] 影视 | 厂长资源[js]
+  [影视] 影视 | 吼吼[V2]
+  [影视] 影视 | 咕噜[V2]
+  [影视] 影视 | 哔嘀影视[js]
+  [影视] 影视 | 喵次元[js]
+  [影视] 影视 | 团长影视[js] 🔍
+  [影视] 影视 | 在线之家[js]
+  [影视] 影视 | 多瑙影视[js]
+  [影视] 影视 | 大米星球[V2]
+  [影视] 影视 | 大米星球[js]
+  [影视] 影视 | 奈飞中文[js]
+  [影视] 影视 | 奈飞狗[V2]
+  [影视] 影视 | 子子影视[js]
+  [影视] 影视 | 孜然影视[js]
+  [影视] 影视 | 宝片[V2]
+  [影视] 影视 | 小狗影院[js]
+  [影视] 影视 | 小白菜电影[js]
+  [影视] 影视 | 尘落影视[js]
+  [影视] 影视 | 干饭影视[js]
+  [影视] 影视 | 开眼视频[js]
+  [影视] 影视 | 影探[V2]
+  [影视] 影视 | 影视之家[V2][js]
+  [影视] 影视 | 影视工场[js]
+  [影视] 影视 | 徕米TV[js]
+  [影视] 影视 | 快看[js]
+  [影视] 影视 | 思古影视
+  [影视] 影视 | 思古影视[V2]
+  [影视] 影视 | 悠久影院[js]
+  [影视] 影视 | 我爱跟剧[js]
+  [影视] 影视 | 新视觉影视[js]
+  [影视] 影视 | 时光影视[js]
+  [影视] 影视 | 星辰影院[js]
+  [影视] 影视 | 映迷[V2]
+  [影视] 影视 | 映迷影院[js]
+  [影视] 影视 | 曲奇影视[V2]
+  [影视] 影视 | 朴樱影视[js]
+  [影视] 影视 | 楚门影院[js]
+  [影视] 影视 | 欧帝影院[js]
+  [影视] 影视 | 海兔影院[js]
+  [影视] 影视 | 热播之家[js]
+  [影视] 影视 | 热播库[js]
+  [影视] 影视 | 爱看[js]
+  [影视] 影视 | 爱看影院[js]
+  [影视] 影视 | 爱看机器人2[js] 🔍
+  [影视] 影视 | 爱看机器人3[js] 🔍
+  [影视] 影视 | 爱看机器人[js] 🔍
+  [影视] 影视 | 爱迪[V2][js]
+  [影视] 影视 | 爱迪影视[js]
+  [影视] 影视 | 玄天[js]
+  [影视] 影视 | 电影先生[js]
+  [影视] 影视 | 百度测试[js]
+  [影视] 影视 | 皮皮鸭[js]
+  [影视] 影视 | 看了么[js]
+  [影视] 影视 | 看了么[js]
+  [影视] 影视 | 看韩剧[js]
+  [影视] 影视 | 私人影院[js]
+  [影视] 影视 | 秋霞影视[js]
+  [影视] 影视 | 秋霞影院[js]
+  [影视] 影视 | 米爱影视[js]
+  [影视] 影视 | 素白白[js]
+  [影视] 影视 | 网飞.TV[js]
+  [影视] 影视 | 美剧网[js]
+  [影视] 影视 | 美益达[V2]
+  [影视] 影视 | 美视网[js]
+  [影视] 影视 | 花屋影院[js]
+  [影视] 影视 | 花猫TV[js]
+  [影视] 影视 | 荐片[js] 🔍
+  [影视] 影视 | 落攻阁影视[V2]
+  [影视] 影视 | 落攻阁影视[js]
+  [影视] 影视 | 蓝光影院[js]
+  [影视] 影视 | 蛋蛋剧[js]
+  [影视] 影视 | 蛋蛋赞[js]
+  [影视] 影视 | 蜥蜴影视[js]
+  [影视] 影视 | 被窝电影[js]
+  [影视] 影视 | 西瓜影院[js]
+  [影视] 影视 | 路人甲[V2]
+  [影视] 影视 | 达达龟[js]
+  [影视] 影视 | 追剧迷[js]
+  [影视] 影视 | 酷云77[js]
+  [影视] 影视 | 量子影视[js]
+  [影视] 影视 | 量子资源[js]
+  [影视] 影视 | 鑫鑫[V2]
+  [影视] 影视 | 阿布影院[js]
+  [影视] 影视 | 飞兔影视[js]
+  [影视] 影视 | 首播影院[js]
+  [影视] 影视 | 骚火电影[js]
+  [影视] 聚合 | 短视频[js]
+  [影视] 请勿相信视频中任何广告
+  [影视] 起飞 | 555影视[js]
+  [影视] 起飞 | KUBO影视[js]
+  [影视] 起飞 | 兰花影院[js]
+  [影视] 起飞 | 华乐影院[js]
+  [影视] 起飞 | 大师兄影视[js]
+  [影视] 起飞 | 天天视频[js]
+  [影视] 起飞 | 小宝影院[js]
+  [影视] 起飞 | 欧乐影院[js]
+  [影视] 起飞 | 起飞影院[js]
+  [搜索] 搜索 | 磁力熊[js]
+  [搜索] 搜索 | 豆瓣[jar]
+  [搜索] 搜索 | 豆瓣[js] 🔍
+  [搜索] 搜索 | 路飞[js]
+  [搜索] 阿里 | 盤搜索[jar] 🔍
+  [直播] 体育 | 310直播[js]
+  [直播] 体育 | JRKAN直播[js]
+  [直播] 弹幕 | JustLive[js]
+  [直播] 弹幕 | 哔哩直播[js]
+  [直播] 电视 | 好趣网[js]
+  [直播] 电视 | 直播[js] 🔍
+  [直播] 直播 | 斗鱼[js]
+  [直播] 直播 | 虎牙[js]
+  [磁力] 磁力 | 4KHDR[js] 🔍
+  [磁力] 磁力 | 6V新版[js] 🔍
+  [磁力] 磁力 | MP4电影[js] 🔍
+  [磁力] 磁力 | 影搜[jar]
+  [磁力] 磁力 | 新版6v[js] 🔍
+  [磁力] 磁力 | 极影网[js] 🔍
+  [磁力] 磁力 | 电影港[js] 🔍
+  [磁力] 磁力 | 磁力熊[js] 🔍
+  [磁力] 磁力 | 美剧迷[js] 🔍
+  [磁力] 磁力 | 酷吧[js] 🔍
+  [磁力] 路飞 | 磁力[js] 🔍
+  [网盘] 书籍 | 分享[jar] 🔍
+  [网盘] 夸克 | 盘搜[jar] 🔍
+  [网盘] 弹幕 | 115分享[jar] 🔍
+  [网盘] 弹幕 | PikPak分享[jar] 🔍
+  [网盘] 弹幕 | Samba分享[jar]
+  [网盘] 弹幕 | UC分享[jar] 🔍
+  [网盘] 弹幕 | 云盘[jar]
+  [网盘] 弹幕 | 夸克分享[jar] 🔍
+  [网盘] 弹幕 | 影视分享[jar] 🔍
+  [网盘] 弹幕 | 资源分享[jar] 🔍
+  [网盘] 弹幕 | 迅雷分享[jar] 🔍
+  [网盘] 网盘 | Alist[js]
+  [网盘] 网盘 | 云盘[jar] 🔍
+  [网盘] 网盘 | 小云[jar] 🔍
+  [网盘] 网盘 | 混合盘[jar] 🔍
+  [网盘] 网盘 | 盘友圈
+  [网盘] 网盘 | 秒搜[jar]
+  [网盘] 阿里 | up云搜[jar]
+  [网盘] 阿里 | 七夜[jar] 🔍
+  [网盘] 阿里 | 小紙條[jar] 🔍
+  [网盘] 阿里 | 找資源[jar] 🔍
+  [网盘] 阿里 | 易搜[jar]
+  [网盘] 阿里 | 盘搜[jar]
+  [网盘] 阿里 | 纸条[jar] 🔍
+  [音频] MV | 爱车MV[js]
+  [音频] MV | 酷奇[js]
+  [音频] 音频 | A8音乐[js]
+  [音频] 音频 | DJ音乐[js]
+  [音频] 音频 | 啦啦DJ[js]
+  [音频] 音频 | 清风DJ[js]
+
+======================================================================
+## 整理建议
+
+1. 移除所有标记为 ❌ 失效的源
+2. 对 📁 仅本地依赖 的源，在电视上实际点进去试试能否播放
+3. 减少参与搜索的源:
+   - 在 site 里设置 "searchable":0, "quickSearch":0
+   - 只给你确认好用且内容不重复的 5-10 个源开搜索
+4. 按分类整理，建议保留:
+   - 影视: 2-3个稳定采集站 + 1个弹幕站
+   - 网盘: 保留1-2个搜索入口即可
+   - 直播: 保留1个稳定的
+======================================================================

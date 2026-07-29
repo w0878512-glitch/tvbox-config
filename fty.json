@@ -1,10 +1,10 @@
 {
-  "spider": "./jar/fan.txt;md5;dd8f442e52e1a2136d435707d3d743c9",
+  "spider": "./jar/fan.txt;md5;1a95a36f4c42226187f9df4d97090f38",
   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "sites": [
     {
       "key": "点我切源",
-      "name": "修复简易安装,【太太太硬了】领取嘟嘟盘免费容量",
+      "name": "修复厂长,【太太太硬了】领取嘟嘟盘免费容量",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -19,14 +19,13 @@
       "api": "csp_MyDriveGuard",
       "changeable": 0,
       "indexs": 0,
-      "searchable": 0,
+      "searchable": 1,
       "style": {
         "type": "oval"
       },
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
-      },
-      "quickSearch": 0
+      }
     },
     {
       "key": "玩偶",
@@ -34,8 +33,8 @@
       "type": 3,
       "api": "csp_WoGGGuard",
       "timeout": 30,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
@@ -70,8 +69,8 @@
       "type": 3,
       "api": "csp_SeedhubGuard",
       "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "indexs": 0
     },
@@ -80,8 +79,8 @@
       "name": "🌞光影┃不卡",
       "type": 3,
       "api": "csp_T4Guard",
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw=="
     },
@@ -91,9 +90,9 @@
       "type": 3,
       "api": "csp_YCyzGuard",
       "timeout": 15,
-      "playerType": 1,
-      "searchable": 0,
-      "quickSearch": 0,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -103,8 +102,8 @@
       "api": "csp_NewCzGuard",
       "timeout": 10,
       "playerType": 2,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -128,8 +127,8 @@
       "api": "csp_AppgzGuard",
       "timeout": 15,
       "playerType": "2",
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -138,8 +137,8 @@
       "type": 3,
       "api": "csp_BttwooGuard",
       "timeout": 10,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -148,8 +147,8 @@
       "type": 3,
       "api": "csp_NmyswvGuard",
       "timeout": 15,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -159,8 +158,8 @@
       "api": "csp_JpysGuard",
       "timeout": 10,
       "playerType": 2,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -168,8 +167,8 @@
       "name": "🧀奶酪┃秒播",
       "type": 3,
       "api": "csp_T4Guard",
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0="
     },
@@ -180,8 +179,8 @@
       "api": "csp_AppTTGuard",
       "timeout": 10,
       "playerType": 2,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
       "ext": "uqGL1bNENExT7/hGxpSE5qU="
     },
@@ -189,12 +188,12 @@
       "key": "视界",
       "name": "🌸茉莉┃多线",
       "type": 3,
-      "api": "csp_AppSxGuard",
+      "api": "csp_App99Guard",
       "timeout": 10,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
-      "ext": "rfOb1uAWbkRHp7hdxprG9un3+TDC2t/rlTwlcMr+ChdbeV8Q9y9xsKxqfbtO0M05tGWcacFVm2c45jhyH6t1Rt6A6PjICGqxV+uN1uOqS2/x0Vp5J0Vfo8usQADpHg=="
+      "ext": "rfOX1voDIQhH8epBwtCFsuby/mmdmIu8kGlnJc+7VkMRLQ1K+jMy+KN1MKQe0MZ6tmGSO5oFzD8/vWwiSqEpFczDqLrdGT3iH6fZmryrFzKijwYkJUMctdztE0O4CsgYZdBu8XhZSwuhSqqllQz4AZMa1l0sT+1NrbhNIxHkrY0upiYSTLNqEaledgZikMCviOXWr3cPBP4COOeoGUyJSJrrybmUppnWGeDAOHhHOVUSXjwSb+QQvcJIT2lmrf1Bk68myGs7qOqc19tD/rnzf2WOb2MzJZqtURBmUFgaW6ea2dL8OPSpSeVAvaGCAnqwuUNGE9hHpK8jfOs0bLJRdkFLnijAn5Q+ofVM5hgGb8c="
     },
     {
       "key": "播客",
@@ -202,8 +201,8 @@
       "type": 3,
       "api": "csp_AppSxGuard",
       "timeout": 10,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOb1uAWbkRHp7hdxprG9un3+SPC3Nbv1SI/b5LtAUhbYkFU/DFvsLBvd/oV3cA4uGiCZNFRz3ln6nh5Q+AgDZiM5KrCAiO7S7SVzv31EG78jVB4JEMNrMPzTgWqRZdMTdR1smBWWwru"
     },
@@ -213,8 +212,8 @@
       "type": 3,
       "api": "csp_AppSxGuard",
       "timeout": 10,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p"
     },
@@ -225,8 +224,8 @@
       "api": "csp_JPJGuard",
       "timeout": 10,
       "playerType": 2,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0
     },
     {
@@ -235,8 +234,8 @@
       "type": 3,
       "api": "csp_AueteGuard",
       "timeout": 10,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -256,8 +255,8 @@
       "type": 3,
       "api": "csp_AppSxGuard",
       "timeout": 10,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxkeoroQVYOelMAvX1kuYptSLB36YxEjVawS9p37Cgo"
     },
@@ -267,8 +266,8 @@
       "type": 3,
       "api": "csp_Dm84Guard",
       "timeout": 10,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -277,8 +276,8 @@
       "type": 3,
       "api": "csp_Anime1Guard",
       "timeout": 10,
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -291,8 +290,7 @@
       "changeable": 0,
       "style": {
         "type": "list"
-      },
-      "quickSearch": 0
+      }
     },
     {
       "key": "多多",
@@ -343,8 +341,8 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
       "ext": {
         "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
@@ -388,7 +386,7 @@
       },
       "timeout": 10,
       "playerType": "2",
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "changeable": 0
     },
@@ -404,7 +402,7 @@
       },
       "timeout": 10,
       "playerType": "2",
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "changeable": 0
     },
@@ -414,7 +412,7 @@
       "type": 3,
       "api": "csp_S_zpsGuard",
       "searchable": 1,
-      "quickSearch": 1,
+      "quickSearch": 0,
       "changeable": 0,
       "ext": {
         "siteUrl": "http://107.173.211.148/"
@@ -430,7 +428,7 @@
       "type": 3,
       "api": "csp_S_zpsGuard",
       "searchable": 1,
-      "quickSearch": 1,
+      "quickSearch": 0,
       "changeable": 0,
       "ext": {
         "siteUrl": "https://so.252035.xyz/"
@@ -445,8 +443,8 @@
       "name": "🐟盘她┃夸父",
       "type": 3,
       "api": "csp_YpanSoGuard",
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
@@ -457,8 +455,8 @@
       "name": "🐞盘他┃嘟嘟",
       "type": 3,
       "api": "csp_BpanSoGuard",
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
@@ -469,8 +467,8 @@
       "name": "🍄抠抠┃搜搜",
       "type": 3,
       "api": "csp_KkSsGuard",
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
@@ -481,8 +479,8 @@
       "name": "🌈优汐┃搜搜",
       "type": 3,
       "api": "csp_UuSsGuard",
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt"
@@ -498,7 +496,7 @@
         "ratio": 1.597
       },
       "searchable": 1,
-      "quickSearch": 1,
+      "quickSearch": 0,
       "changeable": 0,
       "ext": {
         "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
@@ -513,8 +511,8 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
       "ext": {
         "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
@@ -543,8 +541,8 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
       "ext": {
         "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
@@ -559,8 +557,8 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
       "ext": {
         "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
@@ -575,8 +573,8 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
       "ext": {
         "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
@@ -591,8 +589,8 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
       "ext": {
         "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
@@ -614,7 +612,7 @@
       "name": "请勿信视频中任何广告",
       "type": 3,
       "api": "csp_XPathGuard",
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 0,
       "changeable": 0
     }
@@ -662,15 +660,9 @@
       "playerType": 2
     },
     {
-      "name": "世界杯",
-      "type": 0,
-      "url": "http://82.156.243.185:33389/fwc.m3u",
-      "playerType": 2
-    },
-    {
       "name": "虎牙一起看",
       "type": 0,
-      "url": "https://sub.ottiptv.cc/huyayqk.m3u",
+      "url": "https://file.icve.com.cn/file_doc/946/41/ECB0A5FBED1D8C4D4E049E95DB9F756F.m3u",
       "playerType": 2,
       "timeout": 10,
       "ua": "okHttp/Mod-1.5.0.0"
@@ -678,7 +670,7 @@
     {
       "name": "斗鱼一起看",
       "type": 0,
-      "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
+      "url": "https://file.icve.com.cn/file_doc/254/346/3FB56B2C49DF92B3252352FBE5CD00F1.m3u",
       "playerType": 2,
       "timeout": 10,
       "ua": "okHttp/Mod-1.5.0.0"
@@ -686,7 +678,7 @@
     {
       "name": "B站直播",
       "type": 0,
-      "url": "https://sub.ottiptv.cc/bililive.m3u",
+      "url": "https://file.icve.com.cn/file_doc/220/1003/370FAE41BD301F89BA1FCD6FDB8D5BD6.m3u",
       "playerType": 2,
       "timeout": 10,
       "ua": "okHttp/Mod-1.5.0.0"
@@ -694,7 +686,7 @@
     {
       "name": "YY轮播",
       "type": 0,
-      "url": "https://sub.ottiptv.cc/yylunbo.m3u",
+      "url": "https://file.icve.com.cn/file_doc/178/700/2C9AF1F98DBC1523826C0CD4DA8D8947.m3u",
       "playerType": 2,
       "timeout": 10,
       "ua": "okHttp/Mod-1.5.0.0"
