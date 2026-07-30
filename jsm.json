@@ -1726,8 +1726,8 @@
         "type": "rect",
         "ratio": 1.33
       },
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 1,
       "changeable": 1,
       "playerType": 2
