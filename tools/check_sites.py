@@ -203,7 +203,7 @@ def check_site(site):
     return result
 
 
-def format_report(results):
+def format_report(results, dup_keys=None):
     """生成报告"""
     lines = []
     lines.append("=" * 70)
@@ -211,6 +211,16 @@ def format_report(results):
     lines.append(f"检测时间: {time.strftime('%Y-%m-%d %H:%M:%S')}")
     lines.append(f"总源数: {len(results)}")
     lines.append("=" * 70)
+
+    # 重复 key 检查
+    if dup_keys:
+        lines.append(f"\n## ⚠️ 重复 key ({len(dup_keys)} 组)")
+        lines.append("  后面的会覆盖前面的，可能导致源丢失")
+        lines.append("-" * 50)
+        for key, names in dup_keys.items():
+            lines.append(f"  key=\"{key}\" 出现 {len(names)} 次:")
+            for name in names:
+                lines.append(f"      - {name}")
 
     # 统计
     status_count = {}
@@ -313,6 +323,20 @@ def main():
     sites = config.get('sites', [])
     print(f"共 {len(sites)} 个源，开始检测...\n")
 
+    # 检查重复 key
+    key_map = {}
+    for site in sites:
+        key = site.get('key', '')
+        name = site.get('name', '?')
+        if key:
+            if key not in key_map:
+                key_map[key] = []
+            key_map[key].append(name)
+    dup_keys = {k: v for k, v in key_map.items() if len(v) > 1}
+    if dup_keys:
+        print(f"⚠️  发现 {len(dup_keys)} 组重复 key")
+    
+
     # 并发检测
     results = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
@@ -331,7 +355,7 @@ def main():
     results.sort(key=lambda r: (r['status'] != 'fail', r['category'], r['name']))
 
     # 生成报告
-    report = format_report(results)
+    report = format_report(results, dup_keys)
     print("\n" + report)
 
     # 保存报告
