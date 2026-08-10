@@ -1,107 +1,107 @@
 ======================================================================
 TVBox 源可用性检测报告
-检测时间: 2026-07-29 14:26:29
-总源数: 157
+检测时间: 2026-08-10 10:50:41
+总源数: 158
 ======================================================================
 
 ## 统计
   ✅ 可用: 15
   ❌ 失效: 21
-  📁 仅本地依赖(无法网络检测): 41
-  ❓ 无法判断: 80
+  📁 仅本地依赖(无法网络检测): 39
+  ❓ 无法判断: 83
 
 ## 分类统计
-  其他: 80 个
-  影视: 50 个
-  搜索: 9 个
+  其他: 79 个
+  影视: 54 个
+  搜索: 7 个
   磁力: 6 个
   音频: 6 个
   网盘: 4 个
   直播: 2 个
 
-## 参与搜索的源: 77 个
+## 参与搜索的源: 65 个
   (过多会导致搜索结果杂乱，建议只保留 5-10 个可靠的)
 
 ## ❌ 失效源 (21 个) — 建议移除或关闭搜索
 --------------------------------------------------
+  [其他] 三秋 • APP (key: 三秋影视)
+        [unreachable] https://asd123sx23xdacsx.top (10349ms) timed out
   [其他] 华谊 • APP (key: 华谊)
-        [unreachable] https://vip.123pan.cn/1851089669/oss/az5.txt (10166ms) timed out
-  [其他] 无极 • APP (key: 无极99)
-        [error] http://111.170.140.70:19987/app/bn (10300ms) timed out
-  [其他] 橙子 • APP (key: 橙子99)
-        [error] http://113.31.180.218:19987/app/bn (10283ms) timed out
-  [其他] 金牌 • APP (key: 金牌)
-        [error] https://qj4.catbb.xyz (1153ms) Remote end closed connection without response
+        [unreachable] https://vip.123pan.cn/1851089669/oss/az5.txt (2555ms) [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+  [其他] 薯条 • APP (key: 薯条)
+        [unreachable] https://dyttandroid-1372779881.cos.ap-guangzhou.myqcloud.com/app_dyttandroid.txt (370ms) Tunnel connection failed: 503 Service Unavailable
   [其他] 韩圈 • APP (key: 韩圈)
         [error] http://www.小不点.com/api/2026/fishhxq.php (0ms) 'ascii' codec can't encode characters in position 15-17: ord
-  [其他] 顾我 • APP (key: 顾我99)
-        [error] http://117.50.200.113:19987/app/bn (10174ms) timed out
   [其他] 飞飞 • APP (key: 飞飞)
-        [http_error] https://qpcj.69mini.com/api.php/app/ (2069ms) HTTP 404 Not Found
+        [http_error] https://qpcj.69mini.com/api.php/app/ (3127ms) HTTP 404 Not Found
   [其他] 魔方 • APP (key: 魔方)
-        [error] https://www.douy32mf.top (1385ms) Remote end closed connection without response
+        [error] https://www.douy32mf.top (1443ms) Remote end closed connection without response
+  [影视] 修罗 • 影视 (key: 修罗影视)
+        [unreachable] https://www.xlysw.ggff.net (446ms) Tunnel connection failed: 503 Service Unavailable
   [影视] 咕咕 • 动漫 (key: 咕咕动漫)
-        [unreachable] https://www.gugu3.com (10165ms) timed out
+        [unreachable] https://www.gugu3.com (10131ms) timed out
   [影视] 小镇 • 影视 (key: 小镇影视)
-        [http_error] http://dyxz.tv/list/{cateId}_{catePg}.html (1101ms) HTTP 404 Not Found
+        [http_error] http://dyxz.tv/list/{cateId}_{catePg}.html (1161ms) HTTP 404 Not Found
   [影视] 方舟 • 动漫 (key: 方舟动漫)
-        [http_error] https://www.cyfz.top (1354ms) HTTP 403 Forbidden
+        [http_error] https://www.cyfz.top (1337ms) HTTP 403 Forbidden
+  [影视] 果果 • 短剧 (key: 果果短剧)
+        [error] https://www.mochadj.com/i/{cateId}-{catePg}.html (1380ms) Remote end closed connection without response
   [影视] 枫叶 • 影视 (key: 枫叶影视)
-        [unreachable] https://www.cd-zj.com/label/qq.html (766ms) Tunnel connection failed: 503 Service Unavailable
-        [unreachable] https://www.cd-zj.com/cupfox-list/{cateId}-{area}--{class}-----{catePg}---{year}.html (265ms) Tunnel connection failed: 503 Service Unavailable
+        [unreachable] https://www.cd-zj.com/label/qq.html (733ms) Tunnel connection failed: 503 Service Unavailable
+        [unreachable] https://www.cd-zj.com/cupfox-list/{cateId}-{area}--{class}-----{catePg}---{year}.html (250ms) Tunnel connection failed: 503 Service Unavailable
   [影视] 永乐 • 影视 (key: 永乐影视)
-        [unreachable] https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html (10129ms) timed out
+        [unreachable] https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html (10145ms) timed out
   [影视] 漫国 • 动漫 (key: 漫国动漫)
-        [http_error] http://114.66.27.208:806 (920ms) HTTP 500 Internal Server Error
+        [http_error] http://114.66.27.208:806 (974ms) HTTP 500 Internal Server Error
   [影视] 金牌 • 影视 (key: 金牌影视)
-        [unreachable] https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn (282ms) Tunnel connection failed: 503 Service Unavailable
+        [unreachable] https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn (259ms) Tunnel connection failed: 503 Service Unavailable
   [影视] 面包 • 影视 (key: 面包影视)
-        [unreachable] https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html (10134ms) timed out
+        [unreachable] https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html (10144ms) timed out
   [影视] 飞宇影院 (key: fyyy)
-        [http_error] http://ntfeiyu.com/nt/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html (904ms) HTTP 502 Bad Gateway
+        [http_error] http://ntfeiyu.com/nt/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html (1266ms) HTTP 502 Bad Gateway
   [影视] 骚火 • 影视 (key: 骚火影视)
-        [unreachable] https://shdy5.us (10134ms) timed out
+        [unreachable] https://shdy5.us (10132ms) timed out
   [磁力] New6V • 磁力 (key: New6v)
-        [unreachable] https://www.xb6v.com (10128ms) timed out
+        [unreachable] https://www.xb6v.com (10138ms) timed out
   [磁力] 七味 • 磁力 (key: 七味)
-        [unreachable] https://www.qwshow.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qwfun.com,https://www.qnnull.com,https://www.qnnull.com (930ms) Tunnel connection failed: 503 Service Unavailable
+        [unreachable] https://www.qwshow.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qwfun.com,https://www.qnnull.com,https://www.qnnull.com (911ms) Tunnel connection failed: 503 Service Unavailable
   [磁力] 迅雷吧 • 磁力 (key: 迅雷吧)
-        [unreachable] https://xunlei8.me (10144ms) timed out
+        [unreachable] https://xunlei8.me (10139ms) timed out
 
 ## ✅ 可用源 (15 个)
 --------------------------------------------------
+  [其他] 不戳 • APP 🔍
+        [ok] https://appcmszbc.zbc4k.app (1435ms) HTTP 200, 2048B, text/html; charset=utf-8
+  [其他] 云朵 • APP
+        [ok] https://ds3xy2yunsa.xyz (1255ms) HTTP 200, 1969B, text/html
   [其他] 双星 • APP
-        [ok] http://175.178.65.250:19987/app/bn (938ms) HTTP 200, 64B, application/json
+        [ok] http://175.178.65.250:19987/app/bn (953ms) HTTP 200, 64B, application/json
   [其他] 天堂 • APP 🔍
-        [ok] https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt (1891ms) HTTP 200, 65B, text/plain
+        [ok] https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt (2384ms) HTTP 200, 65B, text/plain
   [其他] 橘汁 • APP 🔍
-        [ok] https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt (1660ms) HTTP 200, 66B, text/plain
+        [ok] https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt (1687ms) HTTP 200, 65B, text/plain
   [其他] 热播 • APP 🔍
-        [ok] http://v.rbotv.cn (1949ms) HTTP 200, 3B, text/html; charset=UTF-8
+        [ok] http://v.rbotv.cn (1598ms) HTTP 200, 3B, text/html; charset=UTF-8
   [其他] 王子 • APP 🔍
-        [ok] https://app.95112475.xyz (1148ms) HTTP 200, 2048B, text/html; charset=utf-8
+        [ok] https://app.95112475.xyz (1120ms) HTTP 200, 2048B, text/html; charset=utf-8
   [其他] 苹果 • APP 🔍
-        [ok] https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt (2351ms) HTTP 200, 65B, text/plain
+        [ok] https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt (1665ms) HTTP 200, 65B, text/plain
   [其他] 茉莉 • APP 🔍
-        [ok] https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt (1750ms) HTTP 200, 26B, text/plain
+        [ok] https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt (1993ms) HTTP 200, 26B, text/plain
   [其他] 蓝鹰 • APP 🔍
-        [ok] https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt (1889ms) HTTP 200, 27B, text/plain
-  [其他] 薯条 • APP 🔍
-        [ok] https://dyttandroid-1372779881.cos.ap-guangzhou.myqcloud.com/app_dyttandroid.txt (2524ms) HTTP 200, 65B, text/plain
-  [其他] 高清 • APP 🔍
-        [ok] https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/602.txt (1595ms) HTTP 200, 25B, text/plain
-  [影视] 修罗 • 影视
-        [ok] https://www.xlysw.ggff.net (1569ms) HTTP 200, 2048B, text/html; charset=utf-8
+        [ok] https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt (2735ms) HTTP 200, 27B, text/plain
+  [其他] 马猴 • APP
+        [ok] https://45.150.167.18:8000 (1466ms) HTTP 200, 452B, text/html
   [影视] 农民 • 影视
-        [ok] https://vip.wwgz.cn:5200 (2931ms) HTTP 200, 2048B, text/html;Charset=utf-8
+        [ok] https://vip.wwgz.cn:5200 (2533ms) HTTP 200, 435B, text/html;Charset=utf-8
   [影视] 剧圈 • APP
-        [ok] http://124.221.3.182:19987/app/bn (959ms) HTTP 200, 64B, application/json
+        [ok] http://124.221.3.182:19987/app/bn (1089ms) HTTP 200, 64B, application/json
   [影视] 厂长 • 影视 🔍
-        [ok] https://cz01.vip (1861ms) HTTP 200, 2048B, text/html
+        [ok] https://cz01.vip (1583ms) HTTP 200, 2048B, text/html
   [影视] 曼波 • 动漫 🔍
-        [ok] https://app.omofun1.top (1254ms) HTTP 200, 2048B, text/html; charset=utf-8
+        [ok] https://app.omofun1.top (1210ms) HTTP 200, 2048B, text/html; charset=utf-8
 
-## 📁 仅本地依赖 (41 个)
+## 📁 仅本地依赖 (39 个)
   这些源依赖本地 js/jar 文件，文件存在即可，源是否真正可用需实际播放测试
 --------------------------------------------------
   [其他] ITalkBB｜外 🔍
@@ -132,10 +132,8 @@ TVBox 源可用性检测报告
   [影视] 动漫 | 路漫漫[js]
   [影视] 去看吧 • 动漫
   [影视] 奇乐影视 🔍
-  [影视] 山楂 • 影视 🔍
   [影视] 巴士 • 动漫
   [影视] 星芽 • 短剧 🔍
-  [影视] 瓜子 • 影视 🔍
   [影视] 请勿相信视频中任何广告
   [影视] 路漫漫 • 动漫
   [搜索] 搜索 | 豆瓣[js] 🔍
