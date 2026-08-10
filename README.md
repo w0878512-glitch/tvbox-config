@@ -56,22 +56,57 @@
 ├── cat/                               ← 影猫 (CatVod) 生态
 ├── live/                              ← IPTV 直播源
 └── tools/                             ← 工具脚本
-    ├── check_sites.py                 ←   单个配置源检测
+    ├── check_sites.py                 ←   源可用性检测
     ├── batch_check.py                 ←   批量检测所有配置
+    ├── compare_upstream.py            ←   对比本地 vs 上游 jsm.json
+    ├── analyze_search.py              ←   分析搜索源分布
+    ├── test_4k_speed.py               ←   4K 源测速
+    ├── analyze_4k.py                  ←   4K 源 API 分组分析
     └── tvbox.py                       ←   配置加密/解密
 ```
 
+## 搜索优化
+
+jsm.json 的搜索源经过精简优化，避免搜索结果杂乱：
+
+- **失效源**：自动检测并关闭搜索
+- **短剧源**：不参与全局搜索（手动切换到对应源浏览）
+- **盘搜源**：不参与全局搜索（需登录网盘，手动使用）
+- **4K 源**：同 API 的只保留 2-3 个，避免重复结果
+- **APP 源**：保留检测可用的
+
+关闭搜索不影响使用，手动切换到对应源后照常浏览和源内搜索。
+
 ## 工具使用
 
-### 检测单个配置的源可用性
+### 检测源可用性
 ```bash
-cd tools
-python -X utf8 check_sites.py ../jsm.json --output report.txt
+python -X utf8 tools/check_sites.py jsm.json --output tools/check_report_jsm.txt
 ```
 
-### 批量检测所有配置并关闭失效源搜索
+### 批量检测所有配置
 ```bash
 python -X utf8 tools/batch_check.py
+```
+
+### 对比本地 vs 上游 jsm.json 差异
+```bash
+python -X utf8 tools/compare_upstream.py
+```
+
+### 分析当前搜索源分布
+```bash
+python -X utf8 tools/analyze_search.py
+```
+
+### 测试 4K 源速度和可达性
+```bash
+python -X utf8 tools/test_4k_speed.py
+```
+
+### 分析 4K 源 API 分组（找重复）
+```bash
+python -X utf8 tools/analyze_4k.py
 ```
 
 ### 加密/解密配置
