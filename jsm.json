@@ -140,8 +140,8 @@
       "name": "热播 • APP",
       "type": 3,
       "api": "csp_AppRJ",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 0,
       "ext": {
         "url": "http://v.rbotv.cn"
@@ -241,8 +241,8 @@
       "name": "天堂 • APP",
       "type": 3,
       "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 1,
       "ext": {
         "appName": "电影天堂",
@@ -261,8 +261,8 @@
       "name": "橘汁 • APP",
       "type": 3,
       "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 1,
       "ext": {
         "appName": "橘汁",
@@ -301,8 +301,8 @@
       "name": "苹果 • APP",
       "type": 3,
       "api": "csp_AppDrama",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 1,
       "ext": {
         "appName": "小苹果",
@@ -351,7 +351,7 @@
       "name": "蓝鹰 • APP",
       "type": 3,
       "api": "csp_AppQi",
-      "searchable": 1,
+      "searchable": 0,
       "changeable": 1,
       "ext": {
         "url": "http://103.217.190.91:5566",
@@ -367,13 +367,14 @@
       "name": "不戳 • APP",
       "type": 3,
       "api": "csp_AppGet",
-      "searchable": 1,
+      "searchable": 0,
       "changeable": 1,
       "ext": {
         "url": "https://appcmszbc.zbc4k.app",
         "dataKey": "pYrEkiWRYhBLTUTC",
         "dataIv": "pYrEkiWRYhBLTUTC"
-      }
+      },
+      "quickSearch": 0
     },
     {
       "key": "魔方",
@@ -394,26 +395,28 @@
       "name": "王子 • APP",
       "type": 3,
       "api": "csp_AppGet",
-      "searchable": 1,
+      "searchable": 0,
       "changeable": 1,
       "ext": {
         "url": "https://app.95112475.xyz",
         "dataKey": "5a9w6x58dsq6z3a6",
         "dataIv": "5a9w6x58dsq6z3a6"
-      }
+      },
+      "quickSearch": 0
     },
     {
       "key": "茉莉",
       "name": "茉莉 • APP",
       "type": 3,
       "api": "csp_AppGet",
-      "searchable": 1,
+      "searchable": 0,
       "changeable": 1,
       "ext": {
         "site": "https://allinadmin.oss-cn-hangzhou.aliyuncs.com/bk/9.txt",
         "dataKey": "88689667dce61725",
         "dataIv": "88689667dce61725"
-      }
+      },
+      "quickSearch": 0
     },
     {
       "key": "哔哩合集",
@@ -959,13 +962,14 @@
       "key": "曼波动漫",
       "name": "曼波 • 动漫",
       "type": 3,
-      "searchable": 1,
+      "searchable": 0,
       "api": "csp_AppGet",
       "ext": {
         "url": "https://app.omofun1.top",
         "dataKey": "66dc309cbeeca454",
         "dataIv": "66dc309cbeeca454"
-      }
+      },
+      "quickSearch": 0
     },
     {
       "key": "咕咕动漫",
