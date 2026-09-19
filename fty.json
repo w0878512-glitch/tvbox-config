@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;9d90c83bc7504392dd02c2236f08713a",
+  "spider": "./jar/fan.txt;md5;8e8a7c81f650553aa83ae2674c3f24b4",
   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "sites": [
     {"key": "点我切源","name": "修复原创  厂长，新增无限线路(8月3更新)","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
