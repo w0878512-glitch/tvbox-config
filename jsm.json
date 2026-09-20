@@ -55,20 +55,24 @@
       "style": {
         "type": "rect",
         "ratio": 1.597
-      }
+      },
+      "quickSearch": 0
     },
     {
       "key": "本地",
       "name": "本地｜视频",
       "type": 3,
-      "api": "csp_LocalFile"
+      "api": "csp_LocalFile",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "预告",
       "name": "新片｜预告",
       "type": 3,
       "api": "csp_YGP",
-      "searchable": 0
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "新闪雷",
@@ -78,7 +82,9 @@
       "ext": "./js/新闪雷.js",
       "header": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "fyyy",
@@ -161,7 +167,9 @@
         "pkg": "com.sunshine.tv",
         "sk": "SK-thanks",
         "ver": "6"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "马猴影视",
@@ -177,7 +185,9 @@
         "pkg": "com.damahou.tv",
         "sk": "SK-woniu-thanks",
         "ver": "1"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "云朵影视",
@@ -193,7 +203,9 @@
         "pkg": "com.tvcloud.io",
         "sk": "SK-sk_13oXDZ7u9j2Tk1c0cawWVFfO",
         "ver": "1"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "韩圈",
@@ -771,31 +783,41 @@
         "编码": "UTF-8",
         "分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8",
         "分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "瓜子影视",
       "name": "瓜子 • 影视",
       "type": 3,
-      "api": "csp_Gz360"
+      "api": "csp_Gz360",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "山楂影视",
       "name": "山楂 • 影视",
       "type": 3,
-      "api": "csp_PianKu8"
+      "api": "csp_PianKu8",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "飞娱影视",
       "name": "飞娱 • 影视",
       "type": 3,
-      "api": "csp_Feiyu"
+      "api": "csp_Feiyu",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "独播影视",
       "name": "独播 • 影视",
       "type": 3,
-      "api": "csp_Duboku"
+      "api": "csp_Duboku",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "厂长影视",
@@ -812,28 +834,36 @@
       "name": "金牌 • 影视",
       "type": 3,
       "api": "csp_Jpys",
-      "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+      "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "修罗影视",
       "name": "修罗 • 影视",
       "api": "csp_Xlys",
       "type": 3,
-      "ext": "https://www.xlysw.ggff.net"
+      "ext": "https://www.xlysw.ggff.net",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "骚火影视",
       "name": "骚火 • 影视",
       "type": 3,
       "api": "csp_SaoHuo",
-      "ext": "https://shdy5.us"
+      "ext": "https://shdy5.us",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "农民影视",
       "name": "农民 • 影视",
       "type": 3,
       "api": "csp_Wwys",
-      "ext": "https://vip.wwgz.cn:5200"
+      "ext": "https://vip.wwgz.cn:5200",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "爱看机器人",
@@ -863,7 +893,9 @@
         "线路标题": ">&&<",
         "分类url": "http://dyxz.tv/list/{cateId}_{catePg}.html",
         "分类": "电影$1#电视剧$2#动漫$3#综艺$4"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "面包影视",
@@ -876,7 +908,9 @@
         "分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
         "分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47",
         "简介": "简介：&&"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "永乐影视",
@@ -889,14 +923,18 @@
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
         "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43",
         "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "剧圈影视",
       "name": "剧圈 • 影视",
       "type": 3,
       "api": "csp_XYQHiker",
-      "ext": "./json/JQYS.json"
+      "ext": "./json/JQYS.json",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "1905",
@@ -915,21 +953,26 @@
       "style": {
         "type": "list"
       },
-      "ext": "./json/DLXFS.json"
+      "ext": "./json/DLXFS.json",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "Anime1",
       "name": "A1 • 动漫",
       "type": 3,
       "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "ext": "./js/Anime1.js"
+      "ext": "./js/Anime1.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "喵呜动漫",
       "name": "喵呜 • 动漫",
       "type": 3,
       "searchable": 1,
-      "api": "csp_MiaoWu"
+      "api": "csp_MiaoWu",
+      "quickSearch": 1
     },
     {
       "key": "漫国动漫",
@@ -1009,20 +1052,26 @@
       "name": "路漫漫 • 动漫",
       "type": 3,
       "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "ext": "./js/LMM.js"
+      "ext": "./js/LMM.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "去看吧",
       "name": "去看吧 • 动漫",
       "type": 3,
       "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "ext": "./js/QKB.js"
+      "ext": "./js/QKB.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "荐片",
       "name": "荐片 • 磁力",
       "api": "csp_JianPian",
-      "type": 3
+      "type": 3,
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "七味",
@@ -1084,7 +1133,8 @@
       "style": {
         "type": "list",
         "ratio": 1.433
-      }
+      },
+      "quickSearch": 0
     },
     {
       "key": "夸克网盘",
@@ -1097,7 +1147,8 @@
       "style": {
         "type": "list",
         "ratio": 1.433
-      }
+      },
+      "quickSearch": 0
     },
     {
       "key": "UC网盘",
@@ -1110,7 +1161,8 @@
       "style": {
         "type": "list",
         "ratio": 1.433
-      }
+      },
+      "quickSearch": 0
     },
     {
       "key": "百度网盘",
@@ -1123,7 +1175,8 @@
       "style": {
         "type": "list",
         "ratio": 1.433
-      }
+      },
+      "quickSearch": 0
     },
     {
       "key": "聚合",
@@ -1210,7 +1263,9 @@
       "api": "csp_QiutongTY",
       "style": {
         "type": "list"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "瓜子体育",
@@ -1243,7 +1298,9 @@
       "api": "csp_919TY",
       "style": {
         "type": "list"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "呦呦DJ",
@@ -1252,7 +1309,9 @@
       "api": "csp_Djuu",
       "style": {
         "type": "list"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "轮回DJ",
@@ -1261,7 +1320,9 @@
       "api": "csp_Djlh",
       "style": {
         "type": "list"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "蜻蜓FM",
@@ -1270,7 +1331,9 @@
       "api": "csp_QingtingFM",
       "style": {
         "type": "list"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "世界听书",
@@ -1279,7 +1342,9 @@
       "api": "csp_TingShijie",
       "style": {
         "type": "list"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "戏曲多多",
@@ -1288,25 +1353,33 @@
       "api": "csp_AppLY",
       "style": {
         "type": "list"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "爱听音乐",
       "name": "爱听 • 音乐",
       "type": 3,
-      "api": "./py/爱听音乐.py"
+      "api": "./py/爱听音乐.py",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "网络直播",
       "name": "网络 • 直播",
       "type": 3,
-      "api": "./py/WLZB.py"
+      "api": "./py/WLZB.py",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "哔哩直播",
       "name": "哔哩 • 直播",
       "type": 3,
-      "api": "./py/BLZB.py"
+      "api": "./py/BLZB.py",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "哔哩哔哩音乐",
@@ -1546,7 +1619,8 @@
         "欧美动漫",
         "港台动漫",
         "海外动漫"
-      ]
+      ],
+      "quickSearch": 1
     },
     {
       "key": "非凡",
@@ -1580,7 +1654,8 @@
         "欧美动漫",
         "港台动漫",
         "海外动漫"
-      ]
+      ],
+      "quickSearch": 1
     },
     {
       "key": "索尼",
@@ -1615,7 +1690,8 @@
         "港台动漫",
         "海外动漫",
         "影视解说"
-      ]
+      ],
+      "quickSearch": 1
     },
     {
       "key": "卧龙资源",
@@ -1623,7 +1699,8 @@
       "type": 1,
       "api": "https://wolongzyw.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+      "quickSearch": 1
     },
     {
       "key": "U酷资源風",
@@ -1656,7 +1733,8 @@
       ],
       "header": {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
-      }
+      },
+      "quickSearch": 1
     },
     {
       "key": "极速资源",
@@ -1699,7 +1777,8 @@
       ],
       "header": {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
-      }
+      },
+      "quickSearch": 1
     },
     {
       "key": "建安采集",
@@ -1780,7 +1859,8 @@
         "其他剧",
         "动漫",
         "综艺"
-      ]
+      ],
+      "quickSearch": 1
     },
     {
       "key": "率率",
@@ -1834,7 +1914,8 @@
       ],
       "header": {
         "User-Agent": "Mozilla/5.0"
-      }
+      },
+      "quickSearch": 1
     },
     {
       "key": "暴風",
@@ -1842,84 +1923,107 @@
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+      "quickSearch": 1
     },
     {
       "key": "drpy_js_360影视",
       "name": "官源 | 360[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/360影视.js"
+      "ext": "./js/360影视.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_百忙无果",
       "name": "官源 | 芒果[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/百忙无果.js"
+      "ext": "./js/百忙无果.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_腾云驾雾",
       "name": "官源 | 腾讯[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/腾云驾雾.js"
+      "ext": "./js/腾云驾雾.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_奇珍异兽",
       "name": "官源 | 爱奇艺[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/奇珍异兽.js"
+      "ext": "./js/奇珍异兽.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_菜狗",
       "name": "官源 | 搜狗[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/菜狗.js"
+      "ext": "./js/菜狗.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_优酷",
       "name": "官源 | 优酷[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/优酷.js"
+      "ext": "./js/优酷.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_Anime1动畫",
       "name": "动漫 | Anime1动畫[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/Anime1动畫.js"
+      "ext": "./js/Anime1动畫.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_NT动漫",
       "name": "动漫 | NT动漫[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/NT动漫.js"
+      "ext": "./js/NT动漫.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_路漫漫",
       "name": "动漫 | 路漫漫[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/路漫漫.js"
+      "ext": "./js/路漫漫.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_去看吧",
       "name": "动漫 | 去看吧[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/去看吧.js"
+      "ext": "./js/去看吧.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_A8音乐",
       "name": "音频 | A8音乐[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/A8音乐.js"
+      "ext": "./js/A8音乐.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_DJ音乐",
@@ -1931,7 +2035,9 @@
         "type": "rect",
         "ratio": 1
       },
-      "ext": "./js/DJ音乐.js"
+      "ext": "./js/DJ音乐.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_蜻蜓FM",
@@ -1939,7 +2045,9 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "./js/蜻蜓FM.js"
+      "ext": "./js/蜻蜓FM.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_爱上你听书网",
@@ -1951,7 +2059,9 @@
         "type": "rect",
         "ratio": 1
       },
-      "ext": "./js/爱上你听书网.js"
+      "ext": "./js/爱上你听书网.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_博看听书",
@@ -1963,7 +2073,9 @@
         "type": "rect",
         "ratio": 1
       },
-      "ext": "./js/博看听书.js"
+      "ext": "./js/博看听书.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_海洋听书",
@@ -1975,7 +2087,9 @@
         "type": "rect",
         "ratio": 1
       },
-      "ext": "./js/海洋听书.js"
+      "ext": "./js/海洋听书.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_有声小说",
@@ -1987,14 +2101,18 @@
         "type": "rect",
         "ratio": 1
       },
-      "ext": "./js/有声小说吧.js"
+      "ext": "./js/有声小说吧.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_播客",
       "name": "聚合 | 播客[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/播客.js"
+      "ext": "./js/播客.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_酷6网",
@@ -2002,7 +2120,9 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "./js/酷6网.js"
+      "ext": "./js/酷6网.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "drpy_js_网易公版影像",
@@ -2014,7 +2134,9 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "./js/网易公版影像.js"
+      "ext": "./js/网易公版影像.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "push_agent",
@@ -2023,7 +2145,8 @@
       "api": "csp_Push",
       "searchable": 0,
       "filterable": 0,
-      "changeable": 0
+      "changeable": 0,
+      "quickSearch": 0
     },
     {
       "key": "應用商店",
@@ -2033,21 +2156,26 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "./json/market.json",
-      "jar": "./jar/pg_upgraded.jar"
+      "jar": "./jar/pg_upgraded.jar",
+      "quickSearch": 0
     },
     {
       "key": "bb",
       "name": "配置接口完全免费",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/drpy.js"
+      "ext": "./js/drpy.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "cc",
       "name": "请勿相信视频中任何广告",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/drpy.js"
+      "ext": "./js/drpy.js",
+      "searchable": 0,
+      "quickSearch": 0
     },
     {
       "key": "TVB云播",
